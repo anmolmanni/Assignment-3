@@ -3,7 +3,7 @@ info:
   title: Book Store
   version: '1.0'
 servers:
-  - url: https://fluffy-robot-w4r6wg6pv4x35r6v-3001.app.github.dev/
+  - url: https://anmolmanni.github.io/Assignment-3/
     
        
 paths:
@@ -13,4 +13,15 @@ paths:
       responses:
         '200':
           description: OK
-
+  /v1/users/list:
+    get:
+      description: list all users
+      responses:
+        '200':
+          description: OK
+  /v1/users/create:
+    post:
+      description: create a new user
+      responses:
+        '200':
+          description: OK
