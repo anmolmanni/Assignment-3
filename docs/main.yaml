@@ -3,7 +3,7 @@ info:
   title: Book Store
   version: '1.0'
 servers:
-  - url: https://reimagined-space-succotash-6p96j46q4wq2xr5j-3001.app.github.dev/
+  - url: https://anmolmanni.github.io/Assignment-3/
     
        
 paths:
