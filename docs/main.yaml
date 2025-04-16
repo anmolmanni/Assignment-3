@@ -13,11 +13,3 @@ paths:
       responses:
         '200':
           description: OK
-
-paths:
-  /v1/users/list:
-    get:
-      description: List of users 
-      responses:
-        '200':
-          description: OK
